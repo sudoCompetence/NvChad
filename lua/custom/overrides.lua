@@ -88,8 +88,8 @@ M.nvimtree = {
             },
             glyphs = {
                 git = {
-                    unstaged = "✗",
                     staged = "✓",
+                    unstaged = "⚙",
                     unmerged = "",
                     renamed = "➜",
                     untracked = "☢",
@@ -145,9 +145,9 @@ M.gitsigns = {
         add = { hl = "DiffAdd", text = "➜", numhl = "GitSignsAddNr" },
         untracked = { hl = "GitSignsAdd", text = "☢", numhl = "GitSignsAddNr", linehl = "GitSignsAddLn" },
         change = { hl = "DiffChange", text = "", numhl = "GitSignsChangeNr" },
-        delete = { hl = "DiffDelete", text = "✗", numhl = "GitSignsDeleteNr" },
-        topdelete = { hl = "DiffDelete", text = "✗", numhl = "GitSignsDeleteNr" },
-        changedelete = { hl = "DiffChangeDelete", text = "✗", numhl = "GitSignsChangeNr" },
+        delete = { hl = "DiffDelete", text = "", numhl = "GitSignsDeleteNr" },
+        topdelete = { hl = "DiffDelete", text = "", numhl = "GitSignsDeleteNr" },
+        changedelete = { hl = "DiffChangeDelete", text = "", numhl = "GitSignsChangeNr" },
     },
 }
 
